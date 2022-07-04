@@ -1,6 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-exports.name = '/toptruyen';
+exports.name = '/';
 exports.index = async (req, res, next) => {
         try{
         const _res = await axios.get("https://toptruyen.net/",{

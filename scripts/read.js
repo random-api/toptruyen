@@ -1,6 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-exports.name = '/toptruyen/read';
+exports.name = '/read';
 exports.index = async (req, res, next) => {
             var { url } = req.query;
             if(!url) return res.json({error : "Thiếu link truyện!"})

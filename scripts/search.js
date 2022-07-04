@@ -1,6 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-exports.name = '/toptruyen/search';
+exports.name = '/search';
 exports.index = async (req, res, next) => {
         var keyword = req.query.keyword;
         var page = req.query.page || 1
